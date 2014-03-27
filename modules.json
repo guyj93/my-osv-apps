@@ -47,6 +47,10 @@
     "type": "direct-dir",
     "path": "${OSV_BASE}/apps/iperf/"
 },
+"iperf3": {
+    "type": "direct-dir",
+    "path": "${OSV_BASE}/apps/iperf3/"
+},
 "sqlite": {
     "type": "direct-dir",
     "path": "${OSV_BASE}/apps/sqlite/"
