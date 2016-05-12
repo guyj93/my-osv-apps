@@ -1,9 +1,9 @@
 set -e
-VERSION=3.0.3
-SRC_DIR=iperf-${VERSION}
-TARBALL=iperf-$VERSION.tar.gz
+VERSION=3.1.2
+SRC_DIR=iperf-${VERSION}-source
+TARBALL=iperf-${VERSION}-source.tar.gz
 if [ ! -e $TARBALL ];then
-    wget http://stats.es.net/software/$TARBALL
+    wget https://iperf.fr/download/source/${TARBALL}
 fi
 rm -rf $SRC_DIR
 tar zxf $TARBALL
